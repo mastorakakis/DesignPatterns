@@ -17,7 +17,7 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println(getClass().getSimpleName() + " swim");
+        System.out.println("All ducks float, even decoys!");
     }
 
     public void display() {
@@ -25,7 +25,7 @@ public abstract class Duck {
     }
 
     public void setFlyingBehavior(FlyingBehavior flyingBehavior) {
-        System.out.print("Setting flying behavior: ");
+        System.out.println("Setting flying behavior:");
         this.flyingBehavior = flyingBehavior;
     }
 
