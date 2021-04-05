@@ -1,3 +1,8 @@
+package observer;
+
+import display.DisplayElement;
+import observeable.Subject;
+
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
     private float temperature;

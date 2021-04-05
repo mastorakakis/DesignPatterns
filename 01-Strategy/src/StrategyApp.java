@@ -1,10 +1,12 @@
+/*
+The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+Strategy lets the algorithm vary independently from clients that use it.
+* */
 import entity.*;
 import flybehavior.FlyRocketPowered;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StrategyApp {
 
@@ -27,10 +29,10 @@ public class StrategyApp {
                 });
     }
 
-    private static void showInfo(Duck mallard) {
-        mallard.display();
-        mallard.performFly();
-        mallard.performQuack();
+    private static void showInfo(Duck duck) {
+        duck.display();
+        duck.performFly();
+        duck.performQuack();
         System.out.println();
     }
 }
