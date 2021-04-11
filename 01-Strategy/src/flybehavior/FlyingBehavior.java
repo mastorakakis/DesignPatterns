@@ -1,6 +1,6 @@
 package flybehavior;
 
-public interface FlyingBehavior {
+public interfaces FlyingBehavior {
 
     void fly();
 }

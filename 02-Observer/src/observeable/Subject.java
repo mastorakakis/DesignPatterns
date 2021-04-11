@@ -2,7 +2,7 @@ package observeable;
 
 import observer.Observer;
 
-public interface Subject {
+public interfaces Subject {
 
     void registerObserver(Observer o);
     void removeObserver(Observer o);

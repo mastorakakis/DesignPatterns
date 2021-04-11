@@ -1,6 +1,6 @@
 package observer;
 
-public interface Observer {
+public interfaces Observer {
 
     void update(float temp, float humidity, float pressure);
 }

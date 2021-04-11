@@ -1,6 +1,6 @@
 package quackbehavior;
 
-public interface QuackBehavior {
+public interfaces QuackBehavior {
 
     void quack();
 }
