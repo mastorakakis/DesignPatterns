@@ -8,7 +8,7 @@ import abstracts.Beverage;
 
 /*
 *The Decorator Pattern attaches additional responsibilities to an object dynamically.
-*Decorators provide a fl exible alternative tosubclassing for extending functionality
+*Decorators provide a flexible alternative to subclassing for extending functionality
  */
 public class DecoratorApp {
     public static void main(String[] args) {
