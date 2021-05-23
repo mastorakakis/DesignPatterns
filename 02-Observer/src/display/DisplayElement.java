@@ -1,6 +1,6 @@
 package display;
 
-public interfaces DisplayElement {
+public interface DisplayElement {
 
     void display();
 }
